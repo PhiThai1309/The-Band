@@ -3,3 +3,89 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    height:46px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 1;
+}
+.nav, .subnav{
+    list-style: none;
+    display: inline-block;
+}
+.nav > li {
+    display: inline-block;
+}
+.nav li{
+    height:100%;
+    width: auto;
+    position: relative;
+}
+.nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+.nav li a{
+    padding: 0 24px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 46px;
+    display: inline-block;
+}
+.nav li:hover .subnav{
+    display: block;
+}
+.subnav li:hover a, .nav > li:hover > a{
+    background-color: #ccc;
+    color: black;
+}
+.subnav{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: #ccc 0px 0px 10px;
+}
+
+.subnav a{
+    color: black;
+    width: 100%;
+}
+.search{
+    line-height:46px;
+    padding: 0 21px;
+    float:right;
+}
+
+.search_icon{
+    color: white;
+}
+
+.search:hover{
+    background-color:red;
+    cursor: pointer;
+}
+.slider{
+    margin-top:46px;
+    padding-top: 50%;
+    background: url("/assets/img/la.jpg") top center / cover no-repeat;
+    position: relative;
+}
+.slider_content{
+    position:absolute;
+    bottom:47px;
+    color:white;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.text_desc{
+    margin-top: 25px;
+}
