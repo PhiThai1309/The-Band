@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Band</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="assets/font/themify-icons/themify-icons.css">
+    <link rel="icon" type="image/x-icon" href="">
 </head>
 <body>
     <div class="main">
         <div class="header">
             <ul class="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
                     <a href="">More
                         <i class="ti-angle-down"></i>
@@ -38,7 +39,7 @@
             </div>
         </div>
         <div class="content">
-            <div class="content_section">
+            <div id="band" class="content_section">
                 <h2 class="section_heading">The Band</h2>
                 <p class="section_sub_heading">We Love Music</p>
                 <div class="about">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
@@ -58,7 +59,7 @@
                 </div>
                 <div class="clear"></div>
             </div>
-            <div class="tour_section">
+            <div id="tour" class="tour_section">
                 <div class="content_section">
                     <h2 class="section_heading text_white">TOUR DATES</h2>
                     <p class="section_sub_heading text_white">Remember to book your tickets!</p>
@@ -124,36 +125,48 @@
                     </div>
                 </div>
             </div>
-            <div class="content_section">
-                    <h2 class="section_heading">CONTACT</h2>
-                    <p class="section_sub_heading">Fan? Drop a note!</p>
+            <div id="contact" class="content_section">
+                <h2 class="section_heading">CONTACT</h2>
+                <p class="section_sub_heading">Fan? Drop a note!</p>
 
-                    <div class="row contact_content">
-                        <div class="col col_half contact_info">
-                            <p><i class="ti-location-pin"></i>Chicago, US</p>
-                            <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                            <p><i class="ti-email"></i>Email: mail@mail.com</p>
-                        </div>
-                        <div class="col col_half contact_form">
-                            <form action="">
-                                <div class="row">
-                                    <div class="col col_half">
-                                        <input type="text" name="" placeholder="Name" required id="" class="form-control">
-                                    </div>
-                                    <div class="col col_half">
-                                        <input type="email" name="" placeholder="Email" required id="" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="row mt_8">
-                                    <div class="col col_full">
-                                        <input type="text" name="" placeholder="Message" id="" class="form-control">
-                                    </div>
-                                </div>
-                                <input class="form_submit mt_16" required type="submit" value="SEND">
-                            </form>
-                        </div>
+                <div class="row contact_content">
+                    <div class="col col_half contact_info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
                     </div>
+                    <div class="col col_half contact_form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col_half">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col_half">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt_8">
+                                <div class="col col_full">
+                                    <input type="text" name="" placeholder="Message" id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="form_submit mt_16" required type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
             </div>
+            <div class="map_section">
+                <img src="assets/img/map.jpg" alt="map">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="social_list">
+                <a href="" class="social_item"><i class="ti-facebook"></i></a>
+                <a href="" class="social_item"><i class="ti-twitter"></i></a>
+                <a href="" class="social_item"><i class="ti-instagram"></i></a>
+                <a href="" class="social_item"><i class="ti-youtube"></i></a>
+            </div>
+            <p class="copywrite"> Powered by <a href="w3.css"> w3.css</a></p>
         </div>
     </div>
 </body>

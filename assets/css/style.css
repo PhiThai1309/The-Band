@@ -5,7 +5,8 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 .clear{
     clear: both;
@@ -202,7 +203,6 @@ html {
 }
 .places_list{
     margin-top: 32px;
-    padding-bottom: 48px;
 }
 .place_img{
     width: 100%;
@@ -236,9 +236,12 @@ html {
     display: inline-block;
     margin-top: 15px;
 }
+
+.form_submit:hover,
 .place_buy_button:hover{
     color:black;
     background-color: #ccc;
+    cursor: pointer;
 }
 .contact_content{
     margin-top: 48px;
@@ -265,7 +268,30 @@ html {
     font-size: 15px;
     background-color: black;
     color: white;
-    border: 1px solid #000;
+    border: hidden;
     padding: 10px 16px;
     float: right;
+}
+.map_section img{
+    width: 100%;
+}
+.footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+.social_list{
+    font-size: 24px;
+}
+.social_list a{
+    color:black;
+    text-decoration: none;
+}
+.social_list a:hover{
+    color: #ccc;
+}
+.copywrite{
+    margin-top: 15px;
+}
+.copywrite a{
+    color:rgb(0, 0, 0);
 }
